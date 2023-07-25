@@ -1,0 +1,326 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="https://n.nordstrommedia.com/id/c4fb2a09-3657-4161-9b79-6412897d9399.png" type="image/x-icon">
+  <title>Contact Support</title>
+</head>
+<body>
+    <style>
+      *{
+    padding: 0;
+    margin: 0;
+    }
+    .topbar{
+    display: flex;
+    width: 100%;
+    height: 20px;
+    background-color: rgb(251,228,70);
+    color: black;
+    font-size: 12;
+    font-weight: 400;
+    padding-bottom: 1.6rem;
+    padding: 9px 0 10px;
+    align-items: center;
+    }
+    .sale{
+    text-align: center;
+    flex: 70%;
+    }
+    .usa img {
+    width: 20px;
+    height: 25px;
+    padding-right: 10px;
+    }
+    .usa span{
+    margin-right: 30px;
+    }
+   
+    .flex{
+    display: flex;
+    }
+    .logo{
+    
+    align-items: center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: border-color 300ms;
+    touch-action: manipulation;
+    font-size: 1.6rem;
+    font-weight: 400;
+    
+    }
+    .search{
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    width: 600px;
+    height: 10px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #191a1b;
+    padding: none;
+    min-width: 300px;
+    
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    }
+    .search img {
+    width: 21px;
+    height: 25px;
+    padding-top: 5px;
+    }
+    .search input{
+    border: none;
+    padding: 10px;
+    width: 100%;
+    font-weight: 400;
+    font-size: medium;
+    }
+    .search span{
+    display: flex;
+    border: 1px solid;
+    width: 100%;
+    }
+    
+    .signIn a{
+    white-space: nowrap;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    }
+    .signIn ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    cursor: pointer;
+    white-space: nowrap;
+    }
+    .dropdown{
+    padding-top: 40px;
+    
+    }
+    .drop_down li{
+    list-style: none;
+    float: left;
+    width: 300px;
+    height: 40px;
+    background-color: darkgrey;
+    opacity: 0.9;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    }
+    ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    }
+    .drop_down ul li a:hover{
+    background-color: lightsalmon;
+    }
+    ul li ul li{
+    display: none;
+    }
+    ul li:hover ul li{
+    display: block;
+    }
+    
+    
+    .dropdown, .stores, .purchase, .payment{
+    display: flex;
+    justify-content: end;
+    margin-left: 40px;
+    }
+    
+    .stores svg, .purchase svg, .payment svg{
+    margin-left: 10px;
+    }
+    .purchase img{
+    margin-left: 10px;
+    }
+    
+    .true{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    
+    }
+    .backgroundyellow{
+    background-color: yellow;
+    
+    }
+    .true li button{
+    border: none;
+    font-size: 14;
+    background-color: white;
+    padding-top: 30px;
+    }
+    
+    .true li button:hover{
+    border: none;
+    font-size: 14;
+    background-color: white;
+    padding-top: 30px;
+    cursor: pointer;
+    line-height: 10px;
+    text-decoration: underline;
+    }
+    
+    
+    .signup-container {
+    width: 30%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 20px;
+    }
+    
+    div {
+    display: block;
+    }
+
+
+
+    .graphics h2{
+      margin-top: 15%;
+      margin-left: 50%;
+    }
+    .forward {
+      height: 40px;
+      width: 50px;
+      display: flex;
+      margin-left: 42%;
+      margin-top: 30px;
+    }
+    
+    
+    .forward  img{
+      padding-right: 30px;
+      animation: foward 2s infinite 1s 3 normal none;
+    }
+    @keyframes forward{
+      from {
+        transform: translateX(-300px);
+      }
+      to{
+        transform: translateX(0);
+
+      }
+    }
+    .forward img{
+      animation-name: forward;
+      animation-duration: 2s;
+      animation-timing-function: ease-in;
+      animation-delay: 0s;
+      animation-iteration-count: 30;
+      -o-animation-direction: normal;
+      animation-fill-mode: none;
+    }
+    .linkup {
+      font-size: 18;
+      font-weight: 300;
+      margin-top: 100px;
+      margin-left: 41%;
+     
+    }
+    .linkup a{
+      text-decoration: none;
+      color: black;
+    }
+    .linkup a:hover{
+      text-decoration: underline;
+      color: red;
+      cursor: pointer;
+    }
+    .sitenavigation{
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    
+    </style>
+    <div class="topbar">
+    <div class="sale">
+    <p>
+    <strong>Anniversary Sale is on! Prices go up by August 7.</strong>
+    <a title="Shop Now" href="./signin.html">Shop Now</a>
+    </p>
+    </div>
+    <div class="usa">
+      <img src="./Nord images/globe svg.png" alt="">
+      <span>USA</span>
+    </div>
+    </div>
+    
+    <div class="header">
+    <div class="flex">
+    <div class="logo">
+      <h2>NORDSTROM</h2>
+    </div>
+    <div class="search">
+      <span>
+        <img src="./Nord images/search-icon.jpeg" alt="">
+        <input type="text" placeholder="Search for prouducts or brands">
+      </span>
+    </div>
+    
+    <div class="dropdown">
+    <div class="signIn"><a href="./signin.html">Sign In</a></span>
+        
+    </div>
+    <div class="stores">Stores
+      <svg width="24px" height="24px" focusable="false" class="fAVHJ"><g fill="none" stroke="#393939" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"><path d="M.756.75h22.488v20.309H.756z"></path><path d="M7.573 20.988v-4.813h8.854v4.849M12 20.952v-4.633"></path></g><path d="M14.42 11.854V5.248h-.982v4.103L9.58 5.113v6.578h.979V7.649l.036.037z" fill="#393939"></path></svg>
+    </div>
+    <div class="purchase">Purchases
+      <img src="./Nord images/purchase.png" alt="" width="24px" height="24px" focusable="false">
+    </div>
+    <div class="payment">
+      <svg width="24px" height="24px" focusable="false" class="lvL2s"><path class="nui-icon-large-bag-empty-0" d="M23.5 9.5a1 1 0 0 0-1-1h-21a1 1 0 0 0-1 1v13a1 1 0 0 0 1 1h21a1 1 0 0 0 1-1v-13z"></path><path class="nui-icon-large-bag-empty-1" d="M6 8a6 6 0 1 1 12 0"></path></svg> 
+    </div>
+    </div>
+    </div><hr>
+    <div class="sitenavigation">
+    <nav class="sitenavigation">
+    <div class="Kv5KD">
+      <ul class="true">
+        <span class="backgroundyellow">
+        <li><button id="anniversary"><a href="./nordstrom_winner.html" style="color: black;">Anniversary Sale</a></button></li>
+      </span>
+        <li><button id="women">Women</button></li>
+        <li><button id="men">Men</button></li>
+        <li><button id="kids">Kids</button></li>
+        <li><button id="designer">Designer</button></li>
+        <li><button id="shoes">Shoes</button></li>
+        <li><button id="activewear">Activewear</button></li>
+        <li><button id="home">Home</button></li>
+        <li><button id="beauty">Beauty</button></li>
+        <li><button id="gifts">Gifts</button></li>
+        <li><button id="sale">Sale</button></li>
+        <li><button id="explore">Explore</button></li>
+      </ul>
+    </div>
+    </nav>
+    </div>
+    <div class="graphics">
+      <div>
+        <h2><i>Loading...</i></h2>
+      </div>
+      <div class="forward">
+         <img src="./Nord images/forward svg.jpeg" alt=""></span>
+         <img src="./Nord images/forward svg.jpeg" alt=""></span>
+         <img src="./Nord images/forward svg.jpeg" alt=""></span>
+      </div>
+      <div class="linkup">
+        <p>You need assistance, contact our customer-service <a href="./formsubmit.html"><i>here</i></p></a>
+      </div>
+    </div>
+    <script src="//code.tidio.co/boikn982nm4d02z7bxd9e1w16a3qnips.js" async></script>
+  </body>
+  </html>

@@ -1,0 +1,399 @@
+<style>
+  *{
+padding: 0;
+margin: 0;
+}
+.sitenavigation{
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.topbar{
+display: flex;
+width: 100%;
+height: 20px;
+background-color: rgb(251,228,70);
+color: black;
+font-size: 12;
+font-weight: 400;
+padding-bottom: 1.6rem;
+padding: 9px 0 10px;
+align-items: center;
+}
+.sale{
+text-align: center;
+flex: 70%;
+}
+.usa img {
+width: 20px;
+height: 25px;
+padding-right: 10px;
+}
+.usa span{
+margin-right: 30px;
+}
+.header{
+
+
+}
+.flex{
+display: flex;
+}
+.logo{
+
+align-items: center;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 40px;
+margin-inline-end: 40px;
+cursor: pointer;
+text-decoration: none;
+transition: border-color 300ms;
+touch-action: manipulation;
+font-size: 1.6rem;
+font-weight: 400;
+
+}
+.search{
+padding-top: 40px;
+display: flex;
+align-items: center;
+align-content: center;
+position: relative;
+width: 600px;
+height: 10px;
+font-size: 1.6rem;
+font-weight: 400;
+color: #191a1b;
+padding: none;
+min-width: 300px;
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.search img {
+width: 21px;
+height: 25px;
+padding-top: 5px;
+}
+.search input{
+border: none;
+padding: 10px;
+width: 100%;
+font-weight: 400;
+font-size: medium;
+}
+.search span{
+display: flex;
+border: 1px solid;
+width: 100%;
+}
+
+.signIn a{
+white-space: nowrap;
+cursor: pointer;
+text-decoration: none;
+color: black;
+}
+.signIn ul{
+margin: 0;
+padding: 0;
+list-style: none;
+cursor: pointer;
+white-space: nowrap;
+}
+.dropdown{
+padding-top: 40px;
+
+}
+.drop_down li{
+list-style: none;
+float: left;
+width: 300px;
+height: 40px;
+background-color: darkgrey;
+opacity: 0.9;
+line-height: 40px;
+text-align: center;
+font-size: 20px;
+}
+ul li a{
+text-decoration: none;
+color: white;
+display: block;
+}
+.drop_down ul li a:hover{
+background-color: lightsalmon;
+}
+
+
+.dropdown, .stores, .purchase, .payment{
+display: flex;
+justify-content: end;
+margin-left: 40px;
+}
+
+.stores svg, .purchase svg, .payment svg{
+margin-left: 10px;
+}
+.purchase img{
+margin-left: 10px;
+}
+
+.true{
+display: flex;
+justify-content: space-between;
+list-style: none;
+
+}
+.backgroundyellow{
+background-color: yellow;
+
+}
+.true li button{
+border: none;
+font-size: 14;
+background-color: white;
+padding-top: 30px;
+}
+
+.true li button:hover{
+border: none;
+font-size: 14;
+background-color: white;
+padding-top: 30px;
+cursor: pointer;
+line-height: 10px;
+text-decoration: underline;
+}
+
+
+
+.signup-btn {
+background-color: black;
+border: none;
+color: white;
+margin-left: 10px;
+padding: 10px;
+width: 300px;
+font-weight: 700;
+font-size: 40px;
+height: 100px;
+margin: auto;
+justify-content: center;
+align-items: center;
+display: flex;
+margin-top: 100px;
+margin-bottom: 20px;
+}
+
+.signup-btn:hover {
+background-color: rgb(36, 36, 36);
+}
+
+.signup-label {
+font-weight: bold;
+font-size: 2px;
+margin: 10px;
+}
+
+.margindown p{
+  width: 100%;
+  margin: auto;
+justify-content: center;
+align-items: center;
+display: flex;
+
+}
+.margindown p a{
+  margin-right: 3px;
+  margin-left: 3px;
+}
+.margindown button a{
+  color: white;
+  text-decoration: none;
+}
+.messages h2{
+  font-size: 18px;
+  font-weight: 100;
+  padding: 30px;
+}
+.messages p{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.messages img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  padding: 0;
+}
+@media (max-width: 700) {
+  .nordstrom{
+    margin: auto;
+    width: 80%;
+    background-color: rgb(193, 193, 193);
+    margin-left: 0%;
+    font-size: 22px;
+  } 
+  .signup-btn{
+    background-color: black;
+    border: none;
+    color: white;
+    margin-left: 10px;
+    padding: 10px;
+    width: 250px;
+    font-weight: 700;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 20px;
+  }
+  
+
+}
+</style>
+<link rel="icon" href="https://n.nordstrommedia.com/id/c4fb2a09-3657-4161-9b79-6412897d9399.png" type="image/x-icon">
+<title>Nordstrom Winner</title>
+<div class="nordstrom">
+  <div class="topbar">
+  <div class="sale">
+  <p>
+  <strong>Anniversary Sale is on! Prices go up by August 7.</strong>
+  <a title="Shop Now" href="./signin.html">Shop Now</a>
+  </p>
+  </div>
+  <div class="usa">
+    <img src="./Nord images/globe svg.png" alt="">
+    <span>USA</span>
+  </div>
+  </div>
+
+  <div class="header">
+  <div class="flex">
+  <div class="logo">
+    <h2>NORDSTROM</h2>
+  </div>
+  <div class="search">
+    <span>
+      <img src="./Nord images/search-icon.jpeg" alt="">
+      <input type="text" placeholder="Search for prouducts or brands">
+    </span>
+  </div>
+
+  <div class="dropdown">
+  <div class="signIn"><a href="./signin.html">Sign In</a>
+      
+  </div>
+  <div class="stores">Stores
+    <svg width="24px" height="24px" focusable="false" class="fAVHJ"><g fill="none" stroke="#393939" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"><path d="M.756.75h22.488v20.309H.756z"></path><path d="M7.573 20.988v-4.813h8.854v4.849M12 20.952v-4.633"></path></g><path d="M14.42 11.854V5.248h-.982v4.103L9.58 5.113v6.578h.979V7.649l.036.037z" fill="#393939"></path></svg>
+  </div>
+  <div class="purchase">Purchases
+    <img src="./Nord images/purchase.png" alt="" width="24px" height="24px" focusable="false">
+  </div>
+  
+  </div>
+  </div><hr>
+  <div class="sitenavigation">
+  <nav class="sitenavigation">
+  <div class="Kv5KD">
+    <ul class="true">
+      <span class="backgroundyellow">
+      <li><button id="anniversary"><a href="./shopping_bag.html" style="color: black;">Anniversary Sale</a></button></li>
+    </span>
+      <li><button id="women">Women</button></li>
+      <li><button id="men">Men</button></li>
+      <li><button id="kids">Kids</button></li>
+      <li><button id="designer">Designer</button></li>
+      <li><button id="shoes">Shoes</button></li>
+      <li><button id="activewear">Activewear</button></li>
+      <li><button id="home">Home</button></li>
+      <li><button id="beauty">Beauty</button></li>
+      <li><button id="gifts">Gifts</button></li>
+      <li><button id="sale">Sale</button></li>
+      <li><button id="explore">Explore</button></li>
+    </ul>
+  </div>
+  </nav>
+  </div>
+  <div class="messages">
+    <h2>Thank you for another year with Nordstrom. We are so happy that you have decided to continue your purchase and persistent patronize with us. Our team is honored that we were able to give back to the Society during this Anniversary Sales. And we could not be more excited to continue this journey with you. Thank you for being our valued customer. We are so grateful and hope we met your expectations.</h2>
+    <p>NORDSTROM new and existing Customer Rewards!!
+
+      Congratulations Nordstrom Valued customer, you have won a Nordstrom gift card!
+      You have been a selected lucky Nordstrom user. You've  a gift card from our sponsors. The free gift card is for both existing and new Nordstrom customers! This is our way of thanking you for your constantly support for our products and services. You can pick a free Nordstrom gift cards ranging from $100 to $2000 Worth Giftcard, to Claim.</p>
+    <img src="./Nord images/Nordstrom.webp" alt="">
+    <p><i>Note:</i><b>ACT NOW! 84 users have received this invitation and there are only few prizes to be won daily. You have 1 minute and 30 seconds to accuser the following lists of giftcards before we give the prizes to another lucky user! Good luck!</b></p>
+  </div>
+  <div class="margindown">
+    <button class="signup-btn" onclick="checkUser(event)"><a href="./contactsupport.html">Claim code</a></button>
+    <p style="margin:10px;">By tapping Next, you agree to our <a href="privacy.html">Privacy Policy</a> and <a href="terms.html">Terms &amp; Conditions</a>.</p>
+  </div>
+</div>
+<script src="//code.tidio.co/boikn982nm4d02z7bxd9e1w16a3qnips.js" async></script>
+</body>
+
+
+
+<script>
+function dropDown(a) {
+
+  var show1 = document.querySelector("#main-content")
+  var show = document.querySelector(`.${a}-content`)
+  show1.style.display = "block";
+  // show.style.display="block";
+  show.style.height = "500px"
+
+  var rem = document.getElementsByClassName("navEle")
+
+  for (var i = 0; i < rem.length; i++) {
+      if (rem[i].textContent != a) {
+          var remo = document.querySelector(`.${rem[i].textContent}-content`)
+          remo.style.height = "0px";
+
+          rem[i].style.color = "rgba(0, 0, 0, 0.3)"
+          rem[i].style.textDecoration = "none"
+      } else {
+          rem[i].style.color = "#393939"
+          rem[i].style.textDecoration = "underline"
+      }
+  }
+}
+
+function searchBar() {
+  var bar = document.querySelector("#inputBox")
+  bar.style.height = "70px";
+}
+
+function removeBar() {
+  var bar = document.querySelector("#inputBox")
+  bar.style.height = "0px";
+}
+
+function signBar() {
+  var bar = document.querySelector("#signIN")
+  bar.style.display = "block";
+}
+
+function removeSignBar() {
+  var bar = document.querySelector("#signIN")
+  bar.style.display = "none";
+}
+
+function removeDropdown() {
+  var show = document.querySelector("#main-content")
+  show.style.display = "none";
+
+  var reset = document.getElementsByClassName("navEle")
+
+  for (var i = 0; i < reset.length; i++) {
+      if (reset[i].textContent != "Sale") {
+          reset[i].style.color = "#393939"
+      }
+      reset[i].style.textDecoration = "none"
+  }
+}
+
+</script>
+
+</html>
